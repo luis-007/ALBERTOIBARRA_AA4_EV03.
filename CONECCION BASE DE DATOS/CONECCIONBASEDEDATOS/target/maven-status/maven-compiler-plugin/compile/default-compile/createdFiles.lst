@@ -1,0 +1,4 @@
+com\mycompany\coneccionbasededatos\JakartaRestConfiguration.class
+connection.class
+com\mycompany\coneccionbasededatos\resources\JakartaEE10Resource.class
+databaseconection.class

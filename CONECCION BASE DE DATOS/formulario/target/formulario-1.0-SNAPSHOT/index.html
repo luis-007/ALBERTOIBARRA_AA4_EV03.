@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <style>
+            form{
+                width:50vw;
+                margin: 0 auto;
+                padding: 20px;
+                text-align: center;
+                justify-content: center;                  
+            }            
+        </style>    
+</head>
+<body>
+     <h1>base de datos (post)</h1>
+        
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre usuario</label>
+                <input type="text" class="form-control" id="nombre" placeholder="digite su nombre" required>                         
+            </div>
+    <h2>Formulario de Registro</h2>
+    <form action="RegistroServlet" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br><br>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required><br><br>
+
+        <input type="submit" value="Registrar">
+    </form>
+</body>
+</html>

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+</style>
+
+.inc_head{
+    margin: 50px auto;
+    padding: 50px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+   
+body{
+    width:"200%"; height:"200%";
+    max-width: 1200px;
+    margin: 100px;
+    padding: 100; color: rgb(11, 82, 76);
+
+    font-family: 'Bebas Neue', sans-serif;
+font-family: 'Poppins', sans-serif;
+           
+}
+
+.title{
+    font-family: var(--title-font);
+    font-size: 6rem;
+}
+.sub-title{
+    font-family: var(--titlr-font);
+    font-size: 4rem;
+}
+
+.medio_img{
+    background-color: #ffffff;
+    border: 1px solid rgb(35, 3, 77);
+    position: relative;
+    flex: content;
+}
+.venida_class{
+       border: 1px solid rgb(244, 240, 248);
+          position: relative;
+    flex: content;
+}
+
+.container{
+    color:rgb(177, 14, 28);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container.section{
+    display: flex;
+  
+}
+.inicio{
+    color: black;
+}
+
+.preguntas{
+    color: rgb(5, 27, 22);
+    border: 1px solid ;
+    orientation: center;
+    background-color: #17c0c0;   
+        
+}
+
+.preguntas:hover{
+    background-color: rgb(0, 255, 195);
+}
+.imagen{ 
+    display: inline-block;
+    width: 100% \6;
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+    line-height: 1200;
+    orientation: center;
+}
+.CARACTERISTICAS{
+    color: blue;
+    border: 1px solid ;
+    orientation: center;
+
+}
+
+.img{
+  
+ 
+}
+.h1:{
+    color: rgb(177,14,28);
+}
+.bien_clase{
+    border: 1px solid; color: rgb(5, 5, 78);
+}
+.rojo{
+    color: rgb(177, 14, 28));
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+   
+}
+
+.titulo{
+    color: rgb(177, 14, 28);
+    font-family: var(--title-font);
+    font-size: 36px;
+}
+.head {
+    background-image: url(https://www.google.com/search?q=tutoriales&sca_esv=592620027&tbm=isch&sxsrf=AM9HkKmxJuqoChTau8vQpOhxezSbYYAfyg:1703107470243&source=lnms&sa=X&ved=2ahUKEwjft5ze-Z6DAxXOL0QIHb4_DfAQ_AUoAnoECAIQBA&biw=1242&bih=575&dpr=1.1#imgrc=K26tFNPXRz4TkM&imgdii=cfqFIqIjLEx7tM);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    align-items: center;
+    display: flex;
+    position: relative;
+    
+}
+
+.titulo_clase{
+    border-color: rgb(17, 214, 17);    
+}
+.medium-class,{
+    border-color: rgb(35, 231, 28);
+}
+.bien_clase{
+    max: width 95px;
+    height: 90px;
+    border: 0cqmax;
+}
+.h2-titulos{color: rgb(177,14,28);
+
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.negro{
+    color: black;
+}

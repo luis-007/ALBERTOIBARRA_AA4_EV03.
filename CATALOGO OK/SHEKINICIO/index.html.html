@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Título de la página -->
+    <title>INGRESAR</title>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="menu container">
+           <!-- Barra de navegación -->
+            <a href="#" class="logo">SHEKINAH</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="#" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="http://127.0.0.1:5501/index.html">inisio</a> </li>
+                    <li><a href="#">servicios</a> </li>
+                    <li><a href="#">productos</a> </li>
+                    <li><a href="#">contactos</a> </li>
+
+                </ul>
+            </nav>
+            <!-- Carrito de compras -->
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img id="imagenes carrito" src="./img/carro.png" width="35px" height="35px" alt= "car">
+                        <div id="carrito">
+                            <table id="lista carrito">
+                                <thead>
+                                    <tr>
+                                        <th>imagen</th>
+                                        <th>nombre</th>
+                                        <th>precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar carrito", class:"btn-3">  vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Contenido principal -->
+        <div class="header-content container">
+            <div class="header-txt">
+                <span>Bienvenidos a nuestra tienda</span>
+                <h1>ofertas especiales</h1>
+                <p>¡No te pierdas nuestras Ofertas Especiales en moda esta temporada! En SHEKINAH, estamos emocionados de ofrecerte descuentos exclusivos en una amplia selección de prendas de vestir que te harán lucir y sentirte increíble.
+                    Desde elegantes trajes para ocasiones especiales hasta ropa casual para el día a día, tenemos todo lo que necesitas para renovar tu armario con estilo y a precios irresistibles. Descubre nuestras ofertas especiales !
+                </p>
+                <div class="butons">
+                    <a href="#" class="btn-1">información</a>
+                  <a href="#" class="btn-1">leer mas</a>
+                </div>
+                
+            </div>
+            <div class="header-img">
+                <img src="./img/tiend mod.png">
+
+            </div>
+
+        </div>
+
+    </header>
+    <!-- Sección de ofertas -->
+    <section class="ofert container">
+        <div class="ofert-1 b1">
+            <div class="ofert-txt">
+                <h3>nos apasiona ofrecerte prendas que no solo te hagan lucir bien, sino que también reflejen tu confianza y carisma.</h3>
+                <a href="#">leer mas</a>
+            </div>
+            <div class="ofert-img">
+                <img src="./img/nueva-coleccion-julio-min copy.png">
+            </div>
+        </div>      
+        <div class="ofert-1 b2">
+            <div class="ofert-txt">
+                <h3>creemos que la verdadera elegancia reside en la confianza que proyectas. Con nuestras promociones, puedes estar segura de 
+                    que siempre destacarás en cualquier ocasión.</h3>
+                <a href="#">leer mas</a>
+            </div>
+            <div class="ofert-img">
+                <img src="./img/modelo.png">
+            </div>
+        </div>
+        <div class="ofert-1 b3">
+            <div class="ofert-txt">
+                <h3>
+                    "Estilo impecable, promociones 
+                    inigualables."</h3>
+                <a href="#">leer mas</a>
+            </div>
+            <div class="ofert-img">
+                <img src="./img/nueva-coleccion-julio-min copy.png">
+            </div>
+        </div>        
+    </section>
+    <!-- Sección de productos -->
+    <main class="products-container">
+        <h2>Productos</h2>
+
+        <div class="box-container" id="lista-1">
+            <div class="box">
+                 <!-- Aquí van los productos -->
+                <img src="./img/camisetas.png" alt="">
+                <div class="productos-txt">
+                    <h3>Camisetas</h3>
+                    <p>precios especiales</p>
+                    <p class="precio"> $ 20.000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1" >agregar al carrito</a>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./img/cami 2.png" alt="">
+                <div class="productos-txt">
+                    <h3>Camisetas</h3>
+                    <p>precios especiales</p>
+                    <p class="precio"> $ 35.000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2" >agregar al carrito</a>
+                    </p>
+                </div>
+                <div id="carrito"></div>
+            </div>
+            <div class="box">
+                <img src="./img/cami 17.png" alt="">
+                <div class="productos-txt">
+                    <h3>Camisetas</h3>
+                    <p>precios especiales</p>
+                    <p class="precio"> $ 35.000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3" >agregar al carrito</a>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./img/cha 1.png" alt="">
+                <div class="productos-txt">
+                    <h3>Chaquetas</h3>
+                    <p>precios especiales</p>
+                    <p class="precio"> $ 145.000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4" >agregar al carrito</a>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./img/cha 2.png" alt="">
+                <div class="productos-txt">
+                    <h3>Chaquetas</h3>
+                    <p>precios especiales</p>
+                    <p class="precio"> $ 120.000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5" >agregar al carrito</a>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./img/cha 3.png" alt="">
+                <div class="productos-txt">
+                    <h3>Chaquetas</h3>
+                    <p>precios especiales</p>
+                    <p class="precio"> $ 120.000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6" >agregar al carrito</a>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./img/cha 4.png" alt="">
+                <div class="productos-txt">
+                    <h3>Chaquetas</h3>
+                    <p>precios especiales</p>
+                    <p class="precio"> $ 120.000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="7" >agregar al carrito</a>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./img/cha 5.png" alt="">
+                <div class="productos-txt">
+                    <h3>Chaquetas</h3>
+                    <p>precios especiales</p>
+                    <p class="precio"> $ 120.000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8" >agregar al carrito</a>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./img/cha 6.png" alt="">
+                <div class="productos-txt">
+                    <h3>Chaquetas</h3>
+                    <p>precios especiales</p>
+                    <p class="precio"> $ 80.000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="9" >agregar al carrito</a>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./img/panda 1.png" alt="">
+                <div class="productos-txt">
+                    <h3>Jeans Dama</h3>
+                    <p>precios especiales</p>
+                    <p class="precio"> $ 75.000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="10" >agregar al carrito</a>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./img/panda 2.png" alt="">
+                <div class="productos-txt">
+                    <h3>Jeans Dama</h3>
+                    <p>precios especiales</p>
+                    <p class="precio"> $ 60.000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="11" >agregar al carrito</a>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./img/panda 3.png" alt="">
+                <div class="productos-txt">
+                    <h3>Jeans Dama</h3>
+                    <p>precios especiales</p>
+                    <p class="precio"> $ 60.000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="12" >agregar al carrito</a>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./img/panda 4.png" alt="">
+                <div class="productos-txt">
+                    <h3>Jeans Dama</h3>
+                    <p>precios especiales</p>
+                    <p class="precio"> $ 50.000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="13" >agregar al carrito</a>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./img/male.jpeg" alt="">
+                <div class="productos-txt">
+                    <h3>Accesorios</h3>
+                    <p>precios especiales</p>
+                    <p class="precio"> $ 30.000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="14" >agregar al carrito</a>
+    
+                </div>
+            </div>
+            
+        </div>  
+        <div class="btn-2" id="load-more">cargar más</div>  
+    </main>
+    
+    <!-- Sección de testimonios -->
+    <section class="testimonial container">
+        <span>Testimonios</span>
+        <h2>que opinan nuestros clientes</h2>
+        <div class="testimonial-content">
+            <div class="testimonial-1">
+                <p> creemos que la satisfacción del cliente es la piedra angular de nuestro éxito. 
+                    Nos enorgullece ofrecer productos y servicios que superan las expectativas de nuestros 
+                    clientes, y nos esforzamos constantemente por brindar una experiencia excepcional en cada 
+                    interacción.
+                   </p>
+                   <img src="./img/star png.png" alt="">
+                   <h4>loren input</h4>
+            </div>
+            <div class="testimonial-1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, repellat. Architecto ipsa eveniet,
+                    fuga sit obcaecati fugit eligendi atque neque sapiente aperiam doloribus eum blanditiis maiores.
+                     Autem voluptatum animi assumenda.
+                   </p>
+                   <img src="./img/star png.png" alt="">
+                   <h4>loren input</h4>
+            </div>
+        </div>
+        <!-- Botón de volver -->
+        <div>
+            <a href="http://127.0.0.1:5501/SHEKINICIO/index.html.html"target="blank"><button class="btn-1" type="button">volver</button></a>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </footer> 
+    <script src="scrip.js"></script>   
+
+</body>
+
+
+</html>
